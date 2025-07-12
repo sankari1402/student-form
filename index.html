@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+        
+    
+</head>
+<body>
+    <div>
+    <h1>STUDENT FORM</h1>
+    
+    <form class="regForm">
+        <table  id="table">
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input id="name" type="text" placeholder="Enter Your Name">
+                </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td>
+                <input id="age"   type="number" placeholder="Enter Your Age">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input class="gender" type="radio" value="male">Male
+                    <input  class="gender" type="radio" value="Fmale">Female
+                    
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>Course:</td>
+                <td>
+                    <select id="course">
+                        <option>select</option>
+                        <option>Python</option>
+                        <option>Fullstack Development</option>
+                        <option>Javascipt</option>
+                        <option>Webdesign</option>
+                        <option>Software Devlpomet</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>E-mail:</td>
+                <td>
+                <input id="email" type="email" placeholder="E-mail id">
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="2">
+                    <button id="btn">save</button>
+                </td>
+                
+            </tr>
+                
+            
+        </table>
+    </form>
+    
+   <div class="table">
+   <table id="data">
+    <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+    <th>Course</th>
+    <th>E-mail</th>
+    <th>Action</th>
+</tr>
+<tbody></tbody>
+   </table>
+   </div> 
+   </div>
+     <script src="script.js"></script>
+     
+</body>
+</html>
